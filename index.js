@@ -102,12 +102,12 @@ if (message.content.startsWith(prefix + 'botinfo')) {
   const embed = new Discord.RichEmbed()
   embed.addField('BOT INFO')
   embed.addField('Name', 'After Night', true)
-  embed.addField('Prefix', 'e!', true)
+  embed.addField('Prefix', 'af!', true)
   embed.addField('Tag:', '6777', true)
   embed.addField('Created at:', '2018-06-13 12:52:59.660000', true)
   embed.addField('ID', '303830125999554560', true)
   embed.addField('Made with:', 'Node')
-  embed.addField('Creator', '@[Elite] Unknown Player#0001', true)
+  embed.addField('Creator', '@Inferno', true)
   embed.setColor('RANDOM')
   embed.setThumbnail(message.guild.iconURL)
   message.channel.sendEmbed(embed)
@@ -147,7 +147,7 @@ message.delete() }})}}} });
 
 client.on('message', msg => {
     if (msg.content === 'af!invite') {
-      msg.channel.send('Invite **EliteBOT** https://discordapp.com/oauth2/authorize?client_id=476392633158205440&permissions=0&scope=bot  :tada:');
+      msg.channel.send('Invite **AFTER NIGHT** https://discordapp.com/oauth2/authorize?client_id=477368992386777089&permissions=0&scope=bot  :tada:');
     }
   });
 
